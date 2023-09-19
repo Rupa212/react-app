@@ -1,0 +1,38 @@
+.form{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+}
+h1,
+.icon{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.loginButton{
+    width: 90%;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color:var(--white-color);
+    cursor: pointer;
+    
+}
+.inputContainer{
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #878484;
+} 
+.loginButton:hover{
+    background-color: var(--secondary-color);
+
+}
+.passwordInput{
+    width: 90%;
+}
